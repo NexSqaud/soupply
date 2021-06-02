@@ -763,3 +763,4 @@ class JavaGenerator : CodeGenerator {
 	}
 
 }
+

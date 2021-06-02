@@ -34,7 +34,7 @@ abstract class CodeGenerator : Generator {
 
 	protected bool oneClassPerModule;
 
-	private string game;
+	protected string game;
 
 	public this(CodeMaker.Settings settings, string extension) {
 		this.settings = settings;

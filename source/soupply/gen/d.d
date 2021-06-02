@@ -44,7 +44,7 @@ import transforms : snakeCase, camelCaseLower, camelCaseUpper;
 class DGenerator : CodeGenerator {
 
 	static this() {
-		Generator.register!DGenerator("D", "d", "", ["/*", " *", " */"]);
+		//Generator.register!DGenerator("D", "d", "", ["/*", " *", " */"]);
 	}
 
 	public this() {
